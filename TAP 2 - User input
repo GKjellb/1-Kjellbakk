@@ -1,8 +1,8 @@
 # user input
 user_input = input('What is your name?: ')
 print(user_input, "Welcome", )
-user_input = input('What is your street address?: ')
-user_input = input('What is your zip code?: ')
-user_input = input('What is your phone number?: ')
-user_input = input('and your e-mail address?: ')
+user_input = input('Street address: ')
+user_input = input('Zip code: ')
+user_input = input('Phone number: ')
+user_input = input('E-mail address: ')
 print('Thank you fore your input')
