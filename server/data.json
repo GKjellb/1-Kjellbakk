@@ -1,0 +1,452 @@
+{
+  "familyMembers": [
+    {
+      "id": "mamma",
+      "name": "Mamma",
+      "avatar": "👩",
+      "color": "bg-pink-100 text-pink-700 border-pink-300"
+    },
+    {
+      "id": "pappa",
+      "name": "Pappa",
+      "avatar": "👨",
+      "color": "bg-blue-100 text-blue-700 border-blue-300"
+    },
+    {
+      "id": "barna",
+      "name": "Barna",
+      "avatar": "👧👦",
+      "color": "bg-yellow-100 text-yellow-700 border-yellow-300"
+    },
+    {
+      "id": "felles",
+      "name": "Hele familien",
+      "avatar": "👨‍👩‍👧‍👦",
+      "color": "bg-green-100 text-green-700 border-green-300"
+    }
+  ],
+  "categories": [
+    "Frukt & grønt",
+    "Kjøtt & fisk",
+    "Meieri & egg",
+    "Tørrvarer & hermetikk",
+    "Bakevarer",
+    "Frysevarer",
+    "Saus & krydder",
+    "Annet"
+  ],
+  "recipes": [
+    {
+      "id": "rec_1",
+      "title": "Tradisjonelle Kjøttkaker i Brun Saus",
+      "category": "Middag",
+      "prepTime": "30 min",
+      "servings": 4,
+      "description": "Norske husmannskost-klassiker med poteter, ertestuing og tyttebærsyltetøy.",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=600&q=80",
+      "ingredients": [
+        {
+          "name": "Kjøttdeig av storfe",
+          "amount": 500,
+          "unit": "g",
+          "category": "Kjøtt & fisk"
+        },
+        {
+          "name": "Melk",
+          "amount": 1.5,
+          "unit": "dl",
+          "category": "Meieri & egg"
+        },
+        {
+          "name": "Potetmel",
+          "amount": 2,
+          "unit": "ss",
+          "category": "Tørrvarer & hermetikk"
+        },
+        {
+          "name": "Salt og pepper",
+          "amount": 1,
+          "unit": "ts",
+          "category": "Saus & krydder"
+        },
+        {
+          "name": "Mandelpoteter",
+          "amount": 800,
+          "unit": "g",
+          "category": "Frukt & grønt"
+        },
+        {
+          "name": "Kjøttbuljong",
+          "amount": 1,
+          "unit": "terning",
+          "category": "Saus & krydder"
+        },
+        {
+          "name": "Smør",
+          "amount": 50,
+          "unit": "g",
+          "category": "Meieri & egg"
+        },
+        {
+          "name": "Hvetemel",
+          "amount": 3,
+          "unit": "ss",
+          "category": "Tørrvarer & hermetikk"
+        },
+        {
+          "name": "Erter (frosne)",
+          "amount": 300,
+          "unit": "g",
+          "category": "Frysevarer"
+        },
+        {
+          "name": "Tyttebærsyltetøy",
+          "amount": 1,
+          "unit": "glass",
+          "category": "Tørrvarer & hermetikk"
+        }
+      ],
+      "instructions": [
+        "Rør kjøttdeig med salt, pepper, potetmel og spedd melk til en jevn farse.",
+        "Form runde kjøttkaker med en ss og stek gyllenbrune i smør i en stekepanne.",
+        "Lag brun saus ved å brune smør og mel i en kjele, sped med vann og buljongterning.",
+        "Legg kjøttkakene i sausen og la dem trekke i ca 15 minutter.",
+        "Kok poteter og lag ertestuing ved å mose frosne erter varmet i smør."
+      ]
+    },
+    {
+      "id": "rec_2",
+      "title": "Ovnsbakt Laks med Agurksalat & Rømme",
+      "category": "Fisk",
+      "prepTime": "25 min",
+      "servings": 4,
+      "description": "Frisk, sunn og rask hverdagsfisk som hele familien elsker.",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80",
+      "ingredients": [
+        {
+          "name": "Laksefilet",
+          "amount": 600,
+          "unit": "g",
+          "category": "Kjøtt & fisk"
+        },
+        {
+          "name": "Nypoteter",
+          "amount": 800,
+          "unit": "g",
+          "category": "Frukt & grønt"
+        },
+        {
+          "name": "Agurk",
+          "amount": 1,
+          "unit": "stk",
+          "category": "Frukt & grønt"
+        },
+        {
+          "name": "Rømme",
+          "amount": 1,
+          "unit": "beger",
+          "category": "Meieri & egg"
+        },
+        {
+          "name": "Sitron",
+          "amount": 1,
+          "unit": "stk",
+          "category": "Frukt & grønt"
+        },
+        {
+          "name": "Dill",
+          "amount": 1,
+          "unit": "bunt",
+          "category": "Frukt & grønt"
+        },
+        {
+          "name": "Sukker & eddik",
+          "amount": 2,
+          "unit": "ss",
+          "category": "Saus & krydder"
+        }
+      ],
+      "instructions": [
+        "Forvarm stekeovnen til 200°C.",
+        "Legg laksefiletene i en ildfast form, strø over salt, pepper og noen dråper sitronsaft.",
+        "Bak i stekeovnen i ca. 12-15 minutter til laksen er gjennomstekt.",
+        "Høvle agurken i tynne skiver og rør sammen med litt eddik, sukker, salt og hakket dill.",
+        "Server med kokte nypoteter og en god spiseskje rømme."
+      ]
+    },
+    {
+      "id": "rec_3",
+      "title": "Familietaco med Alt Tilbehør",
+      "category": "Fredagskos",
+      "prepTime": "20 min",
+      "servings": 4,
+      "description": "Den ultimate fredagsmiddagen for store og små.",
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=600&q=80",
+      "ingredients": [
+        {
+          "name": "Kjøttdeig eller Karbonadedeig",
+          "amount": 500,
+          "unit": "g",
+          "category": "Kjøtt & fisk"
+        },
+        {
+          "name": "Tacokrydder",
+          "amount": 1,
+          "unit": "pose",
+          "category": "Saus & krydder"
+        },
+        {
+          "name": "Tacoskjell / Tortilla",
+          "amount": 1,
+          "unit": "pakke",
+          "category": "Tørrvarer & hermetikk"
+        },
+        {
+          "name": "Revet ost",
+          "amount": 200,
+          "unit": "g",
+          "category": "Meieri & egg"
+        },
+        {
+          "name": "Rømme",
+          "amount": 1,
+          "unit": "beger",
+          "category": "Meieri & egg"
+        },
+        {
+          "name": "Tacosaus / Salsa",
+          "amount": 1,
+          "unit": "glass",
+          "category": "Tørrvarer & hermetikk"
+        },
+        {
+          "name": "Mais",
+          "amount": 1,
+          "unit": "boks",
+          "category": "Tørrvarer & hermetikk"
+        },
+        {
+          "name": "Isbergsalat",
+          "amount": 1,
+          "unit": "stk",
+          "category": "Frukt & grønt"
+        },
+        {
+          "name": "Tomater",
+          "amount": 3,
+          "unit": "stk",
+          "category": "Frukt & grønt"
+        },
+        {
+          "name": "Agurk",
+          "amount": 0.5,
+          "unit": "stk",
+          "category": "Frukt & grønt"
+        }
+      ],
+      "instructions": [
+        "Brun kjøttdeigen i en panne, tilsett tacokrydder og litt vann. La det småkoke til fuktigheten er absorbert.",
+        "Kutt salat, tomat og agurk i terninger.",
+        "Varm tortillas eller tacoskjell i stekeovnen i noen minutter.",
+        "Sett frem skåler med ost, rømme, salsa, mais og grønnsaker slik at alle kan lage sin egen taco."
+      ]
+    },
+    {
+      "id": "rec_4",
+      "title": "Kremet Pasta Bolognese",
+      "category": "Pasta",
+      "prepTime": "25 min",
+      "servings": 4,
+      "description": "Smakfull italiensk klasiker tilpasset heile familien.",
+      "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80",
+      "ingredients": [
+        {
+          "name": "Spagetti / Pasta",
+          "amount": 400,
+          "unit": "g",
+          "category": "Tørrvarer & hermetikk"
+        },
+        {
+          "name": "Kjøttdeig",
+          "amount": 400,
+          "unit": "g",
+          "category": "Kjøtt & fisk"
+        },
+        {
+          "name": "Hermetiske hakkede tomater",
+          "amount": 2,
+          "unit": "bokser",
+          "category": "Tørrvarer & hermetikk"
+        },
+        {
+          "name": "Tomatpuré",
+          "amount": 2,
+          "unit": "ss",
+          "category": "Tørrvarer & hermetikk"
+        },
+        {
+          "name": "Løk",
+          "amount": 1,
+          "unit": "stk",
+          "category": "Frukt & grønt"
+        },
+        {
+          "name": "Hvitløk",
+          "amount": 2,
+          "unit": "fedd",
+          "category": "Frukt & grønt"
+        },
+        {
+          "name": "Gulrot",
+          "amount": 1,
+          "unit": "stk",
+          "category": "Frukt & grønt"
+        },
+        {
+          "name": "Parmesan",
+          "amount": 50,
+          "unit": "g",
+          "category": "Meieri & egg"
+        }
+      ],
+      "instructions": [
+        "Finhakk løk, hvitløk og raspet gulrot. Fres i olje til løken er myk.",
+        "Tilmeng kjøttdeig og brun godt.",
+        "Hell i hermetiske tomater og tomatpuré. Krydre med oregano, salt og pepper.",
+        "La sausen putre i 15 minutter mens du koker spagetti etter anvisning på pakken.",
+        "Topp med nystrevne parmesan."
+      ]
+    },
+    {
+      "id": "rec_5",
+      "title": "Kylling Wok med Grønnsaker & Ris",
+      "category": "Kylling",
+      "prepTime": "20 min",
+      "servings": 4,
+      "description": "Fargerik og sprø wok med saftige kyllingstrimler.",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&q=80",
+      "ingredients": [
+        {
+          "name": "Kyllingfilet",
+          "amount": 500,
+          "unit": "g",
+          "category": "Kjøtt & fisk"
+        },
+        {
+          "name": "Wokgrønnsaker (frossen pose eller fersk)",
+          "amount": 1,
+          "unit": "pakke",
+          "category": "Frukt & grønt"
+        },
+        {
+          "name": "Woksaus / Soyasaus",
+          "amount": 1,
+          "unit": "flaske",
+          "category": "Saus & krydder"
+        },
+        {
+          "name": "Jasminris",
+          "amount": 4,
+          "unit": "porsjoner",
+          "category": "Tørrvarer & hermetikk"
+        },
+        {
+          "name": "Cashewnøtter",
+          "amount": 50,
+          "unit": "g",
+          "category": "Tørrvarer & hermetikk"
+        }
+      ],
+      "instructions": [
+        "Sett ris på kok i henhold til pakken.",
+        "Skjær kyllingfilet i strimler og stek i varm panne med olje til kyllingen er gjennomstekt.",
+        "Ta ut kyllingen, wok grønnsakene raskt på høy varme.",
+        "Bland kyllingen tilbake med grønnsakene og tøm over woksaus.",
+        "Server rykende varm med kokt jasminris og dryss over cashewnøtter."
+      ]
+    }
+  ],
+  "weeklyPlan": {
+    "Mandag": {
+      "recipeId": "rec_1",
+      "portions": 4,
+      "customNotes": "Besteforeldre kommer til middag!"
+    },
+    "Tirsdag": {
+      "recipeId": "rec_2",
+      "portions": 4,
+      "customNotes": ""
+    },
+    "Onsdag": {
+      "recipeId": "rec_5",
+      "portions": 4,
+      "customNotes": "Trening kl 18"
+    },
+    "Torsdag": {
+      "recipeId": "rec_4",
+      "portions": 4,
+      "customNotes": ""
+    },
+    "Fredag": {
+      "recipeId": "rec_3",
+      "portions": 4,
+      "customNotes": "Fredagskos!"
+    },
+    "Lørdag": {
+      "recipeId": null,
+      "portions": 4,
+      "customNotes": ""
+    },
+    "Søndag": {
+      "recipeId": null,
+      "portions": 4,
+      "customNotes": ""
+    }
+  },
+  "suggestions": [
+    {
+      "id": "sug_1",
+      "authorId": "barna",
+      "authorName": "Barna",
+      "dishTitle": "Hjemmelaget Pizza",
+      "comment": "Kan vi ha pizza med skinke og ananas på lørdag?",
+      "likes": [
+        "mamma",
+        "pappa",
+        "barna"
+      ],
+      "createdAt": "2025-02-20T12:00:00.000Z"
+    },
+    {
+      "id": "sug_2",
+      "authorId": "pappa",
+      "authorName": "Pappa",
+      "dishTitle": "Fiskegrateng med Råkost",
+      "comment": "Godt for magen og enkelt på søndag.",
+      "likes": [
+        "mamma"
+      ],
+      "createdAt": "2025-02-20T14:30:00.000Z"
+    }
+  ],
+  "extraShoppingItems": [
+    {
+      "id": "extra_1",
+      "name": "Melk 1.5L",
+      "category": "Meieri & egg",
+      "checked": false
+    },
+    {
+      "id": "extra_2",
+      "name": "Grovbrød",
+      "category": "Bakevarer",
+      "checked": false
+    },
+    {
+      "id": "extra_3",
+      "name": "Bananer",
+      "category": "Frukt & grønt",
+      "checked": true
+    }
+  ]
+}
